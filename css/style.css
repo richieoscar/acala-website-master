@@ -269,6 +269,121 @@ body {
   width: 30%;
   margin-top: 20%;
 }
+
+/* meeet the team */
+
+#meet-team{
+  padding: 5% 10%;
+  text-align: center;
+  background-color: #F9F9F9;
+}
+
+.meet{
+  display: inline-block;
+ 
+}
+
+.meet img{
+  width: 60%;
+  margin-bottom: 10px;
+ 
+}
+
+.meet h1{
+  margin-bottom: 50px;
+}
+
+.carousel-item {
+  padding: 2% 10%;
+}
+
+.prev{
+  transform: rotate(180deg);
+  border-radius: 10px;
+  box-shadow: 0 5px 8px 0 rgba(187, 185, 185, 0.2);
+  transition: 0.3s;
+  padding: 10px;
+  margin: 10px 10px;
+
+}
+.next{
+  transform: rotate(360deg);
+  border-radius: 20px;
+  box-shadow: 0 5px 8px 0 rgba(187, 185, 185, 0.2);
+  transition: 0.3s;
+  padding: 10px;
+  margin: 10px 10px;
+}
+/* partners */
+
+#partners{
+  padding: 10% 7%;
+  text-align: center;
+}
+.partner-img{
+  width: 70%;
+}
+
+/* ecosystems */
+
+#eco{
+  padding: 1% 7%;
+  text-align: center;
+}
+#eco p{
+  font-size: 1.5rem;
+  padding: 10px;
+  margin-top: 10px;
+}
+#eco h1{
+  margin-bottom: 9%;
+}
+.eco-p{
+  text-align: start;
+  margin-bottom: 8%;
+}
+
+#footer{
+  padding: 2% 10%;
+  text-align: center;
+  background-color: #F3F4F6;
+}
+
+.shift{
+  margin-left: 20%;
+}
+.shift p{
+  font-size: 1.2rem;
+}
+
+
+.footer-btn {
+  background: #F20;
+  background-image: -webkit-linear-gradient(top, #F20, #A92085);
+  background-image: -moz-linear-gradient(top, #F20, #A92085);
+  background-image: -ms-linear-gradient(top, #F20, #A92085);
+  background-image: -o-linear-gradient(top, #F20, #A92085);
+  background-image: linear-gradient(to bottom, #F20, #A92085);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #FFFFFF 2px;
+  text-decoration: none;
+  width: 200px;
+}
+
+.footer-btn:hover {
+  text-decoration: none;
+}
+
+
+
+
+
 @media (max-width: 1028px) {
   body {
     text-align: center;
@@ -353,5 +468,12 @@ body {
     position: relative;
     z-index: 1;
     bottom: 40px;
+  }
+
+  .eco-p{
+    text-align: center;
+  }
+  .center{
+    text-align: center;
   }
 }
