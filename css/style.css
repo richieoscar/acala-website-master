@@ -1,0 +1,357 @@
+body {
+  font-family: "Montserrat", system-ui, sans-serif;
+}
+
+.logo {
+  width: 25%;
+  margin-left: 100px;
+}
+.nav-item {
+  padding: 0 8px;
+  font-weight: 500;
+  color: black;
+  margin-right: 10px;
+}
+
+#land-page {
+  background-image: url("/images/acala-bg.png");
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  padding: 7% 10%;
+  position: relative;
+  z-index: -1;
+}
+
+#land-page h1 {
+  font-size: 5rem;
+}
+#land-page a {
+  color: white;
+  font-size: 1.25rem;
+}
+
+.btn-land {
+  width: 200px;
+}
+
+.sub-title {
+  font-size: 1.25rem;
+}
+
+.btn-apps {
+  color: #eb1d52;
+  width: 150px;
+  padding: 0px;
+  margin-right: 80px;
+}
+
+/* asusection */
+
+#ausd {
+  padding: 7% 20%;
+  text-align: start;
+}
+#ausd h4 {
+  color: #645aff;
+  margin: 10px;
+}
+#ausd p {
+  color: rgb(80, 76, 76);
+  margin: 1rem;
+  line-height: 1.5;
+  text-shadow: #000;
+  text-align: left;
+}
+
+.usd-img {
+  width: 60%;
+}
+
+.usd-btn {
+  width: 200px;
+  background-color: #645aff;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  box-shadow: #645aff;
+  border: #645aff 2px;
+  height: 50px;
+}
+.usd-btn:hover {
+  background-color: #d21772;
+}
+
+.usd-btn-outline {
+  width: 200px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  color: #645aff;
+  box-shadow: #645aff;
+  border: solid #645aff 2px;
+  height: 50px;
+}
+.navbar-toggler {
+  float: right;
+  margin-right: 10px;
+}
+
+.usd-btn-outline:hover {
+  background-color: #645aff;
+  color: white;
+}
+
+/* acalasection */
+#acala {
+  background-image: url(/images/section-3.svg);
+  background-size: cover;
+  background-position: center;
+  padding: 7% 7%;
+  text-align: center;
+  background-color: rgba(125, 126, 130, 0.138);
+}
+
+#acala h2 {
+  font-size: 2.25rem;
+  line-height: 1.75rem;
+  padding: 1%;
+  word-wrap: break-word;
+}
+.polka-card {
+  display: inline-block;
+  text-align: start;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 7% 7%;
+  margin: 5px 10px;
+  background-color: white;
+}
+
+.polka-card img {
+  width: 10%;
+  margin-bottom: 10px;
+}
+.polka-card p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-family: system-ui;
+}
+.p-acala {
+  font-weight: 600;
+  color: #645aff;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.p-acala-sub {
+  font-weight: 200;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-top: 3rem;
+  font-family: sans-serif;
+}
+.acalmobile {
+  margin: 10% 10%;
+}
+
+/* payment */
+
+#paytoken {
+  padding: 7% 10%;
+}
+
+.pay-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 33.3%;
+  height: 400px;
+  background-color: rgba(184, 187, 198, 0.138);
+  padding: 2.5rem;
+  text-align: start;
+}
+.pay-card img {
+  width: 30%;
+}
+
+.pay-head {
+  width: 20%;
+}
+.pay-body {
+  font-family: sans-serif;
+}
+
+/* power */
+
+#power-acala {
+  padding: 4% 10%;
+  text-align: center;
+}
+
+.power-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 33.3%;
+  height: 300px;
+  background-color: rgba(184, 187, 198, 0.138);
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+}
+
+.power2-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  height: 300px;
+  background-color: rgba(184, 187, 198, 0.138);
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+}
+
+.power-card p{
+  font-family: system-ui;
+  font-size: 1.2rem;
+  
+}
+
+.img-pos{
+  position: relative;
+  z-index: 1;
+  bottom: 40px;
+}
+
+.power-sub{
+  font-size: 1.5rem;
+  font-family:system-ui ;
+}
+
+.power-head{
+  font-size: 2.5rem;
+}
+
+.fee-txt{
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+}
+
+/* karuma */
+
+#karuma{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(184, 187, 198, 0.138);
+  
+}
+
+.karuma-bg{
+  background-color: #1B1B1B;
+  position: relative;
+  z-index: 1;
+  top: 20%;
+}
+
+.kasuma-img{
+  width: 80%;
+  position: relative;
+  z-index: 1;
+  top: 10%;
+}
+.karuma-btn{
+  background-color: #E20D5D;
+  width: 200px;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+.karura-img{
+  width: 30%;
+  margin-top: 20%;
+}
+@media (max-width: 1028px) {
+  body {
+    text-align: center;
+  }
+  #land-page h1 {
+    font-size: 3rem;
+  }
+  .space-left {
+    margin-left: 2px;
+  }
+  .logo {
+    margin-left: 20px;
+    width: 18%;
+  }
+  .space-left {
+    margin-left: 250px;
+  }
+
+  .space-right {
+    margin-right: 150px;
+  }
+
+  .usd-btn {
+    width: 100%;
+    background-color: #645aff;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    box-shadow: #645aff;
+    border: #645aff 2px;
+    height: 50px;
+  }
+  .usd-btn:hover {
+    background-color: #d21772;
+  }
+
+  .usd-btn-outline {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    color: #645aff;
+    box-shadow: #645aff;
+    border: solid #645aff 2px;
+    height: 50px;
+  }
+
+  .usd-btn-outline:hover {
+    background-color: #645aff;
+    color: white;
+  }
+
+  .btn-apps {
+    color: #eb1d52;
+    width: 100px;
+    height: auto;
+    padding: 0px;
+  }
+  #ausd {
+    padding: 7% 15%;
+    text-align: center;
+  }
+  #ausd h2 {
+    text-align: left;
+    font-size: 1.5rem;
+  }
+  #ausd p {
+    text-align: justify;
+  }
+
+  /* power */
+
+  .power-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    background-color: rgba(184, 187, 198, 0.138);
+    padding: 2.5rem;
+    text-align: center;
+  }
+  .img-pos{
+    position: relative;
+    z-index: 1;
+    bottom: 40px;
+  }
+}
