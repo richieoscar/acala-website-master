@@ -14,7 +14,7 @@ body {
 }
 
 #land-page {
-  background-image: url("/images/acala-bg.png");
+  background-image: url("../images/acala-bg.png");
   background-repeat: no-repeat;
   text-align: center;
   color: white;
@@ -104,7 +104,7 @@ body {
 
 /* acalasection */
 #acala {
-  background-image: url(/images/section-3.svg);
+  background-image: url(../images/section-3.svg);
   background-size: cover;
   background-position: center;
   padding: 7% 7%;
